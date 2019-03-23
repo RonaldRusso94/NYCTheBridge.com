@@ -1,0 +1,124 @@
+body{
+	background: url("images/gradient.jpg");
+
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white!important;
+}
+
+header > .container-fluid{
+	background: url("images/thebridgeheader05.png");
+	min-height: 120px;
+}
+header > .container-fluid > .theBridge{
+
+	/*min-height: 120px;*/
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+header > nav{
+	white-space: nowrap;
+	text-transform: uppercase;
+	background: #000!important;
+}
+header > nav > div > div > ul > li > a{
+	
+}
+/*nav > div > div > #vlog-menu{
+	margin: 0!important;
+	padding-left: 30px;
+}*/
+nav > div > div > #vlog-menu > form {
+	display: none;
+}
+
+.my-custom{
+	position: relative;
+}
+.mycustom > input[type=text] {
+    border: none;
+    width: 100%;
+    padding-right: 50px;
+    border-radius: 20px!important;
+}
+.mycustom > .input-group-prepend {
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    bottom: 4px;z-index:9;
+    
+}
+.mycustom > .input-group-prepend > button{
+	border-radius: 20px!important;
+}
+
+
+
+/*OWL CAROUSEL*/
+.owl-prev {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 74%;
+    right: 5%;
+    margin-left: -20px;
+    display: block !important;
+    border:0px solid black;
+    background: rgba(0,0,0,0.5);
+}
+.owl-prev:hover{
+	background: rgba(0,0,0,0.0)!important;
+}
+
+
+.owl-next {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 74%;
+    right: 1%;
+    display: block !important;
+    border:0px solid black;
+
+}
+.owl-next:hover{
+	background: rgba(0,0,0,0.0)!important;
+}
+.owl-prev i, .owl-next i {
+	transform : scale(2,2); color: #ccc;
+	background: rgba(0, 0, 0, 0.4);
+	border-radius: 2px;
+}
+
+/*MOST RECENT*/
+
+.border-bottom{
+	border-width: 1px!important;
+	border-color: #003884!important;
+}
+section > div > h1{
+	font-weight: bold!important;
+	text-transform: uppercase;
+	font-size: 2rem!important;
+	
+}
+.subtitle{
+	
+	font-weight: bold!important;
+
+}
+.zoom{
+	overflow: hidden;
+}
+.zoom-custom{
+	transition: transform .2s;
+}
+.zoom-custom:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+  overflow: hidden;
+}
