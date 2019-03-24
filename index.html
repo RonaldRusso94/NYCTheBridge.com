@@ -11,18 +11,26 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
-    <!-- Owl Carousel -->
-    <link type="text/css" rel="stylesheet" href="owl-carousel/owl.carousel.css">
-    <link type="text/css" rel="stylesheet" href="owl-carousel/owl.theme.default.min.css">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
 
     <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <!-- <script type="text/javascript">
+      $('.carousel').carousel({
+        interval: 1000 * 1
+      });
+    </script> -->
 
     <title>The Bridge | NYC Hip Hop</title>
   </head>
   <body>
 
     <!-- Header -->
-    <header class="mb-5">
+    <header>
 
       <div class="container-fluid">
         <div class="theBridge">
@@ -31,101 +39,105 @@
           </a>
         </div>
       </div>
-
-      <nav class="navbar navbar-expand-md navbar-dark sticky-top">
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="collapse_target">
-          <div class="container d-flex pl-0">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link px-lg-4" href="">Songs</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link px-lg-4" href="">Videos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link px-lg-4" href="">Mixtapes</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link px-lg-4" href="">Exclusives</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link px-lg-4" href="">Staff Picks</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link px-lg-4" href="">Advertise</a>
-              </li>
-            </ul>
-
-            <ul class="navbar-nav flex-row ml-auto" id="vlog-menu">
-              <form class="form-inline d-md-flex">
-                <div class="input-group mycustom">
-                  <input type="text" class="form-control" placeholder="Type here to search..." required>
-                  <div class="input-group-prepend">
-                    <button type="submit" value="submit"><i class="fas fa-search"></i></button>
-                  </div>
-
-                </div>
-              </form>
-
-              <li class="nav-item">
-                <a class="nav-link" href=""><i class="fab fa-twitter ml-md-1 ml-3"></i></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href=""><i class="fab fa-instagram ml-md-1 ml-3"></i></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href=""><i class="fab fa-youtube ml-md-1 ml-3"></i></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href=""><i class="fab fa-soundcloud ml-md-1 ml-3"></i></a>
-              </li>
-                
-              
-
-            </ul>
-          </div>
-        </div>
-      </nav>
     </header>
 
-    <!-- Carousel -->
-    <!-- <section class="container">
-      <div class="owl-carousel owl-theme owl-loaded">
-        <div class="owl-stage-outer">
-            <div class="owl-stage">
-                <div class="owl-item" style="height: 400px; background: url('images/header03.jpg'); background-size: cover; background-position: center center;">
-                </div>
-                <div class="owl-item" style="height: 400px; background: url('images/background04.jpg'); background-size: cover; background-position: center center;">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark sticky-top mb-5 border-bottom">
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="collapse_target">
+        <div class="container d-flex pl-0">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link px-lg-4" href="">Songs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-lg-4" href="">Videos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-lg-4" href="">Mixtapes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-lg-4" href="">Exclusives</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-lg-4" href="">Staff Picks</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-lg-4" href="">Advertise</a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav flex-row ml-auto" id="vlog-menu">
+            <form class="form-inline d-md-flex">
+              <div class="input-group mycustom">
+                <input type="text" class="form-control" placeholder="Type here to search..." required>
+                <div class="input-group-prepend">
+                  <button type="submit" value="submit"><i class="fas fa-search"></i></button>
                 </div>
 
-                <div class="owl-item" style="height: 400px; background: url('images/background03.jpeg'); background-size: cover; background-position: center center;">
-                </div>      
-            </div>
+              </div>
+            </form>
+
+            <li class="nav-item">
+              <a class="nav-link" href="https://twitter.com/thebridgenyc1"><i class="fab fa-twitter ml-md-1 ml-3"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.instagram.com/thebridgenyc1/"><i class="fab fa-instagram ml-md-1 ml-3"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.youtube.com/channel/UCBusskjUBoqTgTEvs4pn_Pw?sub_confirmation=1"><i class="fab fa-youtube ml-md-1 ml-3"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://soundcloud.com/thebridgenyc"><i class="fab fa-soundcloud ml-md-1 ml-3"></i>
+              </a>
+            </li>
+              
+            
+
+          </ul>
         </div>
       </div>
-    </section> -->
+    </nav>
 
-    <div class="container">
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+    <!-- Carousel -->
+    <!-- <div style="background: url(images/trending01.jpg); width: 400px;
+    height: 400px;">
+      
+    </div> -->
+
+
+    <div class="container mb-4">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="4000">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="images/background03.jpeg" alt="First slide">
+        <div class="carousel-inner embed-responsive embed-responsive-16by9">
+          <div class="carousel-item embed-responsive-item active" style="background: url('images/trending01.jpg');background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;">
+
+          <!-- <img class="d-block w-100" src="images/trending01.jpg" alt="First slide"> -->
+            <div class="carousel-caption">
+              <h5 class="">Queens Native EsYou just dropped a banger!</h5>
+              <a class="btn btn-primary mb-2" href="EsYou-NoSleep.html">Watch Here</a>
+            </div>
+
           </div>
-          <div class="carousel-item">
+          <!-- <div class="carousel-item embed-responsive-item">
             <img class="d-block w-100" src="images/background04.jpg" alt="Second slide">
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item embed-responsive-item">
             <img class="d-block w-100" src="images/background02.jpg" alt="Third slide">
-          </div>
+          </div> -->
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -188,51 +200,21 @@
     </section>
 
     <!-- FOOTER -->
-    <footer class="d-flex py-5 text-white justify-content-center">
+    <footer class="d-flex py-5 justify-content-center">
 
-        <i class="fab fa-twitter"><a class="nav-link" href=""></a></i>
+        <a class="nav-link" href="https://twitter.com/thebridgenyc1"><i class="fab fa-twitter"></i></a>
       
       
-        <i class="fab fa-instagram"><a class="nav-link" href=""></a></i>
+        <a class="nav-link" href="https://www.instagram.com/thebridgenyc1/"><i class="fab fa-instagram"></i></a>
       
       
-        <i class="fab fa-youtube"><a class="nav-link" href=""></a></i>
+        <a class="nav-link" href="https://www.youtube.com/channel/UCBusskjUBoqTgTEvs4pn_Pw?sub_confirmation=1"><i class="fab fa-youtube"></i></a>
       
       
-        <i class="fab fa-soundcloud"><a class="nav-link" href=""></a></i>       
+        <a class="nav-link" href="https://soundcloud.com/thebridgenyc"><i class="fab fa-soundcloud"></i></a>       
     </footer>
 
-        <!-- jQuery -->
-    <!-- <script
-    src="http://code.jquery.com/jquery-3.3.1.js"
-    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-    crossorigin="anonymous"></script> -->
-
-    <!-- Owl Carousel -->
-    <script src="owl-carousel/jquery.min.js"></script>
-    <script src="owl-carousel/owl.carousel.js"></script>
-    <script type="text/javascript">
-      $('.owl-carousel').owlCarousel({
-        loop:true,
-        singleItem:true,
-        autoplay:true,
-        autoplayTimeout:4500,
-        nav    : true,
-        smartSpeed :1100,
-        navText : ["<i class='fas fa-chevron-left'></i>","<i class='fas fa-chevron-right'></i>"],
-        responsive:{
-          0:{
-              items:1
-          },
-          1200:{
-              items:1
-          },
-          2000:{
-              items:1
-          }
-        }
-      })
-    </script>
+    
     
 
     <!-- Optional JavaScript -->

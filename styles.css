@@ -6,8 +6,8 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: white!important;
+	font-family: calibri;
 }
-
 header > .container-fluid{
 	background: url("images/thebridgeheader05.png");
 	min-height: 120px;
@@ -19,12 +19,15 @@ header > .container-fluid > .theBridge{
 	justify-content: center;
 	align-items: center;
 }
-header > nav{
+nav{
 	white-space: nowrap;
 	text-transform: uppercase;
 	background: #000!important;
 }
-header > nav > div > div > ul > li > a{
+nav.border-bottom{
+	border-width: 2px!important;
+}
+nav > div > div > ul > li > a{
 	
 }
 /*nav > div > div > #vlog-menu{
@@ -58,46 +61,21 @@ nav > div > div > #vlog-menu > form {
 
 
 /*OWL CAROUSEL*/
-.carousel .carousel-inner .carousel-item img {
-	min-height: 250px;
-	max-height: 250px;
+.carousel-item{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-
-
-.owl-prev {
-    width: 15px;
-    height: 100px;
-    position: absolute;
-    top: 74%;
-    right: 5%;
-    margin-left: -20px;
-    display: block !important;
-    border:0px solid black;
-    background: rgba(0,0,0,0.5);
+.carousel-caption h5{
+	font-size: 1.4rem;
+	text-shadow: 2px 2px #003884;
 }
-.owl-prev:hover{
-	background: rgba(0,0,0,0.0)!important;
-}
-
-
-.owl-next {
-    width: 15px;
-    height: 100px;
-    position: absolute;
-    top: 74%;
-    right: 1%;
-    display: block !important;
-    border:0px solid black;
-
-}
-.owl-next:hover{
-	background: rgba(0,0,0,0.0)!important;
-}
-.owl-prev i, .owl-next i {
-	transform : scale(2,2); color: #ccc;
-	background: rgba(0, 0, 0, 0.4);
-	border-radius: 2px;
+.carousel-caption a{
+	border-radius: 20px;
+	background-color: #003884;
+	border-color: #003884;
+	text-shadow: 2px 2px #000;
 }
 
 /*MOST RECENT*/
@@ -129,11 +107,23 @@ section > div > h1{
   transform: scale(1.1); 
   overflow: hidden;
 }
+/*FOOTER*/
+footer > a{
+	color: white!important;
+}
 
 
-@media (min-width: 800px) {
-	.carousel .carousel-inner .carousel-item img {
-		min-height: 525px;
-		max-height: 525px;
+@media (min-width: 540px) {
+	.carousel-caption > h5 {
+
 	}
   }
+@media (min-width: 768px) {
+
+  }
+@media (min-width: 960px) {
+
+  }
+@media (min-width: 1140px) {
+
+}
