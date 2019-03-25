@@ -1,13 +1,9 @@
 body{
-	background: url("images/gradient.jpg");
-
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+	
 	color: white!important;
 	font-family: calibri;
 }
+
 header > .container-fluid{
 	background: url("images/thebridgeheader05.png");
 	min-height: 120px;
@@ -37,7 +33,6 @@ nav > div > div > ul > li > a{
 nav > div > div > #vlog-menu > form {
 	display: none;
 }
-
 .my-custom{
 	position: relative;
 }
@@ -58,25 +53,17 @@ nav > div > div > #vlog-menu > form {
 	border-radius: 20px!important;
 }
 
+.gradient{
+	background: url("images/gradient02.png");
 
-
-/*OWL CAROUSEL*/
-.carousel-item{
+	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
-.carousel-caption h5{
-	font-size: 1.4rem;
-	text-shadow: 2px 2px #003884;
-}
-.carousel-caption a{
-	border-radius: 20px;
-	background-color: #003884;
-	border-color: #003884;
-	text-shadow: 2px 2px #000;
-}
+/*OWL CAROUSEL*/
+
 
 /*MOST RECENT*/
 
@@ -115,25 +102,27 @@ footer > a{
 
 
 @media (min-width: 576px) {
-	.carousel-caption > h5 {
-		font-size: 2.1rem;
-		margin-bottom: .8rem;
+	.carousel-caption a{
+		border-radius: 20px;
+		background-color: #003884;
+		border-color: #003884;
+		text-shadow: 2px 2px #000;
+		display: inline-block!important;
+		float: left;
+		border: 1px solid white!important;
 	}
   }
 @media (min-width: 768px) {
-	.carousel-caption > h5 {
-		font-size: 2.8rem;
-		margin-bottom: 2.1rem;
-	}
-	.carousel-caption > a{
+	.carousel-caption a{
 		font-size: 1.2rem;
+	}
+
+	.carousel-caption > a{
+		
 	}
   }
 @media (min-width: 992px) {
-	.carousel-caption > h5 {
-		font-size: 4rem;
-		margin-bottom: 3.3rem;
-	}
+
 	.carousel-caption > a{
 		font-size: 1.2rem;
 	}
