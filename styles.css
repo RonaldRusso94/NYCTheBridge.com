@@ -54,7 +54,7 @@ nav > div > div > #vlog-menu > form {
 }
 
 .gradient{
-	background: url("images/gradient02.png");
+	background: url("images/gradient01.jpg");
 
 	background-attachment: fixed;
 	background-position: center;
@@ -97,6 +97,10 @@ section > div > h1{
 }
 /*FOOTER*/
 footer > a{
+	color: white!important;
+}
+a.tab-subheadings{
+	text-decoration: none;
 	color: white!important;
 }
 
