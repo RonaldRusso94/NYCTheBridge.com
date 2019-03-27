@@ -1,7 +1,10 @@
 body{
-	
-	color: white!important;
+	background-color: #f0f0f0;
+	color: #003884!important;
 	font-family: calibri;
+	font-weight: bold;
+	font-family: 'Roboto Slab', serif;
+
 }
 
 header > .container-fluid{
@@ -10,7 +13,7 @@ header > .container-fluid{
 }
 header > .container-fluid > .theBridge{
 
-	/*min-height: 120px;*/
+	
 	display:flex;
 	justify-content: center;
 	align-items: center;
@@ -53,17 +56,43 @@ nav > div > div > #vlog-menu > form {
 	border-radius: 20px!important;
 }
 
-.gradient{
-	background: url("images/gradient01.jpg");
 
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+.container-style{
+	background: white;
+	background: white;
+	border:1px solid #d9d9d9;"
 }
 
 /*OWL CAROUSEL*/
+.carousel-inner{
+	border:2px solid #003884;
+}
 
+
+
+
+/*TRENDING*/
+a.brighten {
+    display: inline-block;
+    background: white;
+    padding: 0;
+}
+
+a.brighten img {
+    display: block;
+
+    -webkit-transition: all 0.5s linear;
+       -moz-transition: all 0.5s linear;
+        -ms-transition: all 0.5s linear;
+         -o-transition: all 0.5s linear;
+            transition: all 0.5s linear;
+}
+
+a.brighten:hover img {
+	opacity: 1.5;
+    filter: brightness(150%);
+
+}
 
 /*MOST RECENT*/
 
@@ -97,7 +126,7 @@ section > div > h1{
 }
 /*FOOTER*/
 footer > a{
-	color: white!important;
+	color: #003884!important;
 }
 a.tab-subheadings{
 	text-decoration: none;
@@ -106,15 +135,25 @@ a.tab-subheadings{
 
 
 @media (min-width: 576px) {
-	.carousel-caption a{
-		border-radius: 20px;
-		background-color: #003884;
-		border-color: #003884;
-		text-shadow: 2px 2px #000;
-		display: inline-block!important;
-		float: left;
-		border: 1px solid white!important;
-	}
+    .carousel-caption > .custom-button{
+        border-radius: 50px;
+        text-transform: uppercase;
+        color: black;
+        font-size: 16px;
+        line-height: 39px;
+        letter-spacing: 3px;
+        padding: 0 10px;
+        font-weight: bold;
+        background-color: white;
+        border-color: white;
+        display: inline-block!important;
+        float: left;
+        border: 2px solid white!important;
+    }
+    .carousel-caption > .custom-button:hover{
+        background: rgba(255, 255, 255, 0);
+        color: white;
+    }
   }
 @media (min-width: 768px) {
 	.carousel-caption a{
