@@ -130,7 +130,10 @@ footer > a{
 }
 a.tab-subheadings{
 	text-decoration: none;
-	color: white!important;
+	color: #003884!important;
+}
+h1, h3 {
+	font-weight: bold!important;
 }
 
 
