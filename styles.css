@@ -71,6 +71,12 @@ nav > div > div > #vlog-menu > form {
 
 
 
+
+
+.upload-date {
+	font-size: .8rem;
+}
+
 /*TRENDING*/
 a.brighten {
     display: inline-block;
@@ -134,6 +140,7 @@ a.tab-subheadings{
 }
 h1, h3 {
 	font-weight: bold!important;
+	margin-bottom: 0;
 }
 
 
