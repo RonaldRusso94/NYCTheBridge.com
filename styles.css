@@ -167,8 +167,12 @@ h1, h3 {
         background: rgba(255, 255, 255, 0);
         color: white;
     }
+    .trending-font{
+		font-size: 1rem;
+	}
   }
 @media (min-width: 768px) {
+
 	.carousel-caption a{
 		font-size: 1.2rem;
 	}
