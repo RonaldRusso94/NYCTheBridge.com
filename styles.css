@@ -78,6 +78,9 @@ nav > div > div > #vlog-menu > form {
 }
 
 /*TRENDING*/
+.trending-font{
+	font-size: .8rem;
+}
 a.brighten {
     display: inline-block;
     background: white;
@@ -138,9 +141,7 @@ a.tab-subheadings{
 	text-decoration: none;
 	color: #003884!important;
 }
-.trending-font{
-	font-size: .8rem;
-}
+
 h1, h3 {
 	font-weight: bold!important;
 	margin-bottom: 0;
