@@ -138,6 +138,9 @@ a.tab-subheadings{
 	text-decoration: none;
 	color: #003884!important;
 }
+.trending-font{
+	font-size: .9rem;
+}
 h1, h3 {
 	font-weight: bold!important;
 	margin-bottom: 0;
