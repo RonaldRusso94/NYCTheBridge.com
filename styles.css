@@ -4,7 +4,7 @@ body{
 	font-family: calibri;
 	font-weight: bold;
 	font-family: 'Roboto Slab', serif;
-	font-size: .9rem;
+	/*font-size: .9rem;*/
 
 }
 
@@ -176,12 +176,13 @@ h1, h3 {
     .trending-font{
 		font-size: 1rem;
 	}
+	.img-title{
+		font-size: .9rem!important;
+	}
   }
 @media (min-width: 768px) {
 
-	body{
-		font-size: .9rem;
-	}
+
 	.carousel-caption a{
 		font-size: 1.2rem;
 	}
