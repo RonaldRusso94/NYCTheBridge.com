@@ -182,6 +182,9 @@ h1, h3 {
   }
 @media (min-width: 768px) {
 
+	.april{
+		font-size: 2rem;
+	}
 
 	.carousel-caption a{
 		font-size: 1.2rem;
